@@ -1,0 +1,49 @@
+/* Soluzione qui */
+@media screen and (min-width: 480px) {
+
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .recipe-name {
+        font-size: 1.8rem;
+    }
+
+    .recipe-name::after {
+        content: "(Dolce Tradizionale)";
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .social-networks .btn {
+        width: calc(100% /4);
+    }
+
+    .clearfix img {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    main {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        text-align: start;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 80px;
+    }
+}
